@@ -59,6 +59,14 @@ Develop with on a remove server with vscode
 * click the button left corner, find `connect to host`
 * since we have a ssh config nicely, you will be able to just click, then you are!
 
+
+### Clone code
+
+* when you are in:
+    * add your private key to like `~/.ssh/id_ed25519`
+    * then `chmod 600 ~/.ssh/id_ed25519`
+    * now you can git clone `git clone git@github.com:youname/yourrepo.git`
+
 ### devcontainer
 
 * the configuration is difficult, lets 
