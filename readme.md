@@ -71,5 +71,20 @@ Develop with on a remove server with vscode
 
 ### devcontainer
 
-* the configuration is difficult, lets 
+* make sure the current user can use docker first!
+
+    ```
+    sudo usermod -aG docker $USER
+    # or, below makes everyone can use docker
+    sudo chmod 666 /var/run/docker.sock
+    ```
+
+* the, now, as normal
+
+    * `apt install docker.io docker-compose-v2`
+    * update the settings of devcontainer to use `docker compose` instead of `docker-compose`
+    * create the .devcontainer folder
+    * get the files in
+    * with the devcontainer plug in, click the left button corder, there is reopen in container, just normal..
+    * now you are in
 
