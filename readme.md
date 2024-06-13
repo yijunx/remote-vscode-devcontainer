@@ -59,5 +59,7 @@ Develop with on a remove server with vscode
 * click the button left corner, find `connect to host`
 * since we have a ssh config nicely, you will be able to just click, then you are!
 
-### decontainer
+### devcontainer
+
+* the configuration is difficult, lets 
 
