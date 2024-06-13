@@ -4,7 +4,7 @@ Develop with on a remove server with vscode
 
 ### Make sure you can ssh, take gcp vm as an example
 
-* make sure a vm is running, say in gcp
+* make sure a vm is running, say in gcp. and make sure your firewall rule allow tcp/22.
 * lets generate the ssh keypare
 
     ```
