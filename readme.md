@@ -35,9 +35,9 @@ Develop with on a remove server with vscode
 
     ```
     ➜  ~ cat ~/.ssh/config
-    Host gcp-dev-vm   # anyname you think convenient
-        User tomxuerjun   # name-when-you-ssh-into-the-machine-via-ssh-on-web-page
-        HostName 35.198.200.65  # the external ip
+    Host gcp-dev-vm            # anyname you think convenient
+        User tombar            # name-when-you-ssh-into-the-machine-via-ssh-on-web-page
+        HostName 123.123.12.3  # the external ip
         IdentityFile ~/.ssh/id_ed25519_for_ssh  # the PRIVATE keyfile we just generated
     ```
 
