@@ -66,6 +66,8 @@ Develop with on a remove server with vscode
     * add your private key to like `~/.ssh/id_ed25519`
     * then `chmod 600 ~/.ssh/id_ed25519`
     * now you can git clone `git clone git@github.com:youname/yourrepo.git`
+    * now the repo is cloned
+    * click the file icon at navigation, then open folder, choose the repo you just cloned!, now your are remotely developping!
 
 ### devcontainer
 
